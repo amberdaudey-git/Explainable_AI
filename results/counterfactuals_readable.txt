@@ -1,0 +1,52 @@
+Original prediction: B
+
+Readable Counterfactual Explanations (only flips):
+
+Counterfactual 1:
+  - concave points_mean: 0.02623 → 0.1
+  - texture_worst: 15.97 → 38.61
+  - perimeter_worst: 83.74 → 200.36
+  - area_worst: 510.5 → 2861.1
+  - compactness_worst: 0.239 → 0.5395
+  Predicted diagnosis: M
+
+Counterfactual 2:
+  - texture_worst: 15.97 → 47.48
+  - perimeter_worst: 83.74 → 113.64
+  - area_worst: 510.5 → 3419.6
+  - concavity_worst: 0.2102 → 1.2
+  - symmetry_worst: 0.3016 → 0.4267
+  Predicted diagnosis: M
+
+Counterfactual 4:
+  - texture_mean: 10.82 → 37.4
+  - area_mean: 403.3 → 2464.2
+  - smoothness_mean: 0.09373 → 0.0726
+  - area_se: 10.5 → 244.16
+  - radius_worst: 12.82 → 18.17
+  - area_worst: 510.5 → 1412.6
+  Predicted diagnosis: M
+
+Counterfactual 6:
+  - radius_mean: 11.41 → 20.97
+  - concave points_mean: 0.02623 → 0.3
+  - area_se: 10.5 → 222.02
+  - texture_worst: 15.97 → 13.7
+  - perimeter_worst: 83.74 → 232.16
+  - area_worst: 510.5 → 1502.8
+  Predicted diagnosis: M
+
+Feature importance across flipped counterfactuals:
+  area_worst: changed in 4 CF(s)
+  texture_worst: changed in 3 CF(s)
+  perimeter_worst: changed in 3 CF(s)
+  concave points_mean: changed in 2 CF(s)
+  area_se: changed in 2 CF(s)
+  compactness_worst: changed in 1 CF(s)
+  concavity_worst: changed in 1 CF(s)
+  symmetry_worst: changed in 1 CF(s)
+  texture_mean: changed in 1 CF(s)
+  area_mean: changed in 1 CF(s)
+  smoothness_mean: changed in 1 CF(s)
+  radius_worst: changed in 1 CF(s)
+  radius_mean: changed in 1 CF(s)

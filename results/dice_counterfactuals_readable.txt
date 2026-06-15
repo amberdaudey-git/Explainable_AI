@@ -1,0 +1,47 @@
+Original prediction: 0
+
+Counterfactual explanations:
+
+Counterfactual 2:
+  texture_mean: 10.820 → 29.870
+  perimeter_mean: 73.340 → 173.900
+  concave points_mean: 0.026 → 0.300
+  area_se: 10.500 → 293.830
+  area_worst: 510.500 → 3626.300
+  symmetry_worst: 0.302 → 0.568
+  Prediction: 1.0
+
+Counterfactual 3:
+  texture_mean: 10.820 → 38.390
+  symmetry_mean: 0.167 → 0.293
+  texture_worst: 15.970 → 47.560
+  perimeter_worst: 83.740 → 150.150
+  area_worst: 510.500 → 3189.800
+  concavity_worst: 0.210 → 0.500
+  Prediction: 1.0
+
+Counterfactual 4:
+  area_mean: 403.300 → 1059.000
+  area_se: 10.500 → 134.850
+  radius_worst: 12.820 → 26.150
+  area_worst: 510.500 → 2961.800
+  concavity_worst: 0.210 → 0.700
+  symmetry_worst: 0.302 → 0.567
+  Prediction: 1.0
+
+Counterfactual 5:
+  perimeter_worst: 83.740 → 249.950
+  area_worst: 510.500 → 2657.800
+  smoothness_worst: 0.155 → 0.212
+  concavity_worst: 0.210 → 0.500
+  concave points_worst: 0.090 → 0.300
+  Prediction: 1.0
+
+Counterfactual 6:
+  radius_mean: 11.410 → 16.200
+  area_mean: 403.300 → 1629.300
+  compactness_mean: 0.067 → 0.189
+  radius_worst: 12.820 → 28.580
+  texture_worst: 15.970 → 35.440
+  area_worst: 510.500 → 1060.100
+  Prediction: 1.0
